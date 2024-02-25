@@ -1,0 +1,23 @@
+{
+  "name": "c6721ba0-7ae8-4883-aa77-14b2efd2bd90",
+  "displayName": "prebuilt_components_authentication:telephony_verification",
+  "genericWebService": {
+    "uri": "https://us-central1-prebuilt-components-qa.cloudfunctions.net/fsi-otp-auth-qa",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"checkAuthentication\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "account_count",
+      "value": "account_count"
+    }, {
+      "key": "email",
+      "value": "email"
+    }, {
+      "key": "last_four_digit_of_account_number",
+      "value": "last_four_digit_of_account_number"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

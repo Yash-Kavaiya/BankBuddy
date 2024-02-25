@@ -1,0 +1,60 @@
+{
+  "name": "cbbf5ed6-36a9-489f-8ea9-098581d17e4b",
+  "displayName": "Select Service",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Account Info",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "path",
+        "value": "account_info"
+      } ]
+    },
+    "targetFlow": "Auth",
+    "name": "bad0cad4-5366-416e-ad0d-893e3eb8af54"
+  }, {
+    "intent": "Cards",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Cards",
+    "name": "fd5c4d49-c2d7-45b0-9a22-4ae81b44dc00"
+  }, {
+    "intent": "Fixed Deposit",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Fixed Deposit",
+    "name": "65b6f3d0-fca8-4a65-a429-8537e1e3d1b6"
+  }, {
+    "intent": "Loans",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Loans",
+    "name": "26b65d5f-a990-457b-9263-98f7f914a392"
+  }, {
+    "intent": "Offers",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Offers",
+    "name": "5d2935b5-18af-45bb-8dec-e09601a3fa59"
+  }, {
+    "intent": "Customer care",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Customer care",
+    "name": "8caa68fc-8ef9-4117-986d-233153a80460"
+  }, {
+    "intent": "Money Mentor",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Money Mentor",
+    "name": "a6c7ce62-d860-4be7-b440-f02637577437"
+  } ]
+}

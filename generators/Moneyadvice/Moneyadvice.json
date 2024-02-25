@@ -1,0 +1,29 @@
+{
+  "name": "55d79b2f-ae7e-40d2-8e85-c250f5b12c03",
+  "displayName": "Moneyadvice",
+  "placeholders": [ {
+    "id": "goal",
+    "name": "goal"
+  }, {
+    "id": "income",
+    "name": "income"
+  }, {
+    "id": "risk",
+    "name": "risk"
+  }, {
+    "id": "savings",
+    "name": "savings"
+  }, {
+    "id": "spending_habits",
+    "name": "spending_habits"
+  } ],
+  "modelParameter": {
+    "temperature": 0.1,
+    "maxDecodeSteps": 7580,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

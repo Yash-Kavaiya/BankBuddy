@@ -1,0 +1,133 @@
+{
+  "name": "415c0d3b-f0c9-4c9a-b164-d18f0c52ac0f",
+  "displayName": "Ask about user",
+  "form": {
+    "parameters": [ {
+      "displayName": "goal",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your primary financial goal right now?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Saving for an emergency fund"
+                }, {
+                  "text": "paying off debt"
+                }, {
+                  "text": "investing for the future"
+                }, {
+                  "text": "making a big purchase"
+                }, {
+                  "text": "other"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "income",
+      "required": true,
+      "entityType": "@sys.unit-currency",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Provide ranges in your local currency" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "savings",
+      "required": true,
+      "entityType": "@sys.unit-currency",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How much do you currently have in savings?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "spending_habits",
+      "required": true,
+      "entityType": "@spending_habits",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How would you rate your spending habits?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Very disciplined"
+                }, {
+                  "text": "somewhat disciplined"
+                }, {
+                  "text": " I struggle to budget"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "risk",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How comfortable are you with investment risk" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Not at all"
+                }, {
+                  "text": "cautious"
+                }, {
+                  "text": "moderate"
+                }, {
+                  "text": "willing to take risks"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Advice",
+    "name": "7e570018-66ba-47ac-9502-4b204d763596"
+  } ]
+}

@@ -1,0 +1,99 @@
+{
+  "trainingPhrases": [ {
+    "id": "dbaa0d02-2240-4863-9d29-1fc189a0363f",
+    "parts": [ {
+      "text": "માત્ર હાય કહેવા જઈ રહ્યો છું",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "d052414a-2975-4fef-8065-33ac38b71b19",
+    "parts": [ {
+      "text": "ફરીથી નમસ્કાર",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "81086e38-3691-43a0-b8c2-aa263dff8c63",
+    "parts": [ {
+      "text": "અરે ત્યાં",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "5e2dc6bb-2280-4586-a17b-169f03856573",
+    "parts": [ {
+      "text": "સારો દિવસ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "c23a1297-09a7-4327-a522-45acb4728b6f",
+    "parts": [ {
+      "text": "અરે",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "4dd27e4a-263b-4cb2-9edb-2885261cf93c",
+    "parts": [ {
+      "text": "હેલો ત્યાં",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "ada6c00d-07a6-4fab-b24e-606ea4e5a464",
+    "parts": [ {
+      "text": "હાય ત્યાં",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "e1ab5ed5-9888-4c80-913b-0b34eee47233",
+    "parts": [ {
+      "text": "સુંદર દિવસ તે નથી",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "8f141c89-fbf9-4f0d-b7ed-a64ae183fa0d",
+    "parts": [ {
+      "text": "લાંબા સમય સુધી જોયું નથી",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "5839cb59-0025-403e-9699-e4b99291eef3",
+    "parts": [ {
+      "text": "હાય",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "da2f6608-932d-4461-ab83-9a23e52a86a9",
+    "parts": [ {
+      "text": "નમસ્તે",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  }, {
+    "id": "e4d7a97f-6418-4afd-a6db-7f867a0532a4",
+    "parts": [ {
+      "text": "શુભેચ્છાઓ",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "gu"
+  } ]
+}

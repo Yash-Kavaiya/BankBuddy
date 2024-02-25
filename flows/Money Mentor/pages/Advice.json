@@ -1,0 +1,35 @@
+{
+  "name": "fa42fefa-0dcb-42d7-b869-469bb2468b35",
+  "displayName": "Advice",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.advice" ]
+      },
+      "languageCode": "en"
+    } ],
+    "generators": [ {
+      "generator": "projects/ondc-project-cloud/locations/global/agents/fc952b9f-cbf8-4a6f-bc76-524278d89d8c/generators/55d79b2f-ae7e-40d2-8e85-c250f5b12c03",
+      "inputParameters": [ {
+        "key": "goal",
+        "value": "$session.params.goal"
+      }, {
+        "key": "income",
+        "value": "$session.params.income"
+      }, {
+        "key": "risk",
+        "value": "$session.params.risk"
+      }, {
+        "key": "savings",
+        "value": "$session.params.savings"
+      }, {
+        "key": "spending_habits",
+        "value": "$session.params.spending_habits"
+      } ],
+      "outputParameter": "$request.generative.advice"
+    } ]
+  }
+}

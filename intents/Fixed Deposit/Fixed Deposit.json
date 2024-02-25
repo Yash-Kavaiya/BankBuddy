@@ -1,0 +1,10 @@
+{
+  "name": "93f721bd-b2c4-452d-b9b0-e961c1e32503",
+  "displayName": "Fixed Deposit",
+  "parameters": [ {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

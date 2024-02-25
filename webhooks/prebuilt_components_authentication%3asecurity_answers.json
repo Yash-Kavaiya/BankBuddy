@@ -1,0 +1,29 @@
+{
+  "name": "302d0013-dcc4-4cdc-9859-4407282a7bb7",
+  "displayName": "prebuilt_components_authentication:security_answers",
+  "genericWebService": {
+    "uri": "https://us-central1-prebuilt-components-qa.cloudfunctions.net/fsi-otp-auth-qa",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"securityAns\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "$flow.last_payment_mode",
+      "value": "last_mop"
+    }, {
+      "key": "$flow.security_card_number",
+      "value": "card"
+    }, {
+      "key": "$flow.security_last_trans_amount",
+      "value": "last_trans_amount"
+    }, {
+      "key": "cards_exp_date_all",
+      "value": "exp_date"
+    }, {
+      "key": "user_dob",
+      "value": "user_dob"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

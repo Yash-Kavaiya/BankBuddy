@@ -1,0 +1,202 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Welcome to BankBuddy, your trusted companion for all your banking needs! How can I assist you today?", "Hi! I’m BankBuddy, your personal banking assistant. I’m here to simplify banking for you. Let’s dive into the world of easy banking", "Greetings! I'm BankBuddy, designed to simplify your banking journey. Let's get started - how can I support you today?", "Welcome! I’m BankBuddy, committed to making your banking experience as easy as possible. Let’s get started on your financial journey!" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Account Info"
+            }, {
+              "text": "Cards"
+            }, {
+              "text": "Loans"
+            }, {
+              "text": "Fixed Deposit"
+            }, {
+              "text": "Mutual Funds"
+            }, {
+              "text": "Offers"
+            }, {
+              "text": "Customer Care"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "नमस्ते!", "नमस्कार!", "आपका दिन शुभ हो!" ]
+        },
+        "languageCode": "hi"
+      }, {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en-ca"
+      }, {
+        "text": {
+          "text": [ "हाय!", "हॅलो!", "आपला दिवस आनंदात जावो!", "शुभेच्छा!" ]
+        },
+        "languageCode": "mr"
+      }, {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en-in"
+      }, {
+        "text": {
+          "text": [ "हाय!", "हॅलो!", "आपला दिवस आनंदात जावो!", "शुभेच्छा!" ]
+        },
+        "languageCode": "mr-in"
+      }, {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en-au"
+      }, {
+        "text": {
+          "text": [ "હાય!", "નમસ્કાર!", "શુભ દિવસ!", "કેમ છો!" ]
+        },
+        "languageCode": "gu"
+      }, {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en-gb"
+      } ]
+    },
+    "targetPage": "Select Service",
+    "name": "f23ef5c7-f4e0-4fde-8d2d-8eb937d7fafc"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "मुझे समझ नहीं आया. क्या आप अपनी बात दोहरा सकते हैं?", "आपने क्या कहा, मुझे समझ नहीं आया. फिर से कहें?", "माफ़ करें, क्या आप अपनी बात दोहरा सकते हैं?", "माफ़ करें, क्या आप अपनी बात फिर से कह सकते हैं?", "क्या आप अपनी बात दोहरा सकते हैं?", "माफ़ करें, मुझे समझ नहीं आया|", "माफ़ करें, क्या कहा आपने?", "एक बार फिर से कह सकते हैं?", "क्या कहा आपने?", "एक बार फिर से कहिए?", "मुझे समझ नहीं आया|" ]
+        },
+        "languageCode": "hi"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-ca"
+      }, {
+        "text": {
+          "text": [ "मला ते समजले नाही. तुम्ही ते पुन्हा एकदा म्हणाल का?", "तुम्ही काय म्हंटले ते मी ऐकले नाही. पुन्हा म्हणाल का?", "माफ करा, तुम्ही ते पुन्हा म्हणाल का?", "माफ करा, तुम्ही ते पुन्हा म्हणू शकता का?", "माफ करा, मला ते समजले नाही.", "माफ करा, ते काय होते?", "आणखी एकदा?", "ते काय होते?", "ते पुन्हा म्हणाल का?", "मला ते समजले नाही.", "मी ते ऐकले नाही." ]
+        },
+        "languageCode": "mr"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-in"
+      }, {
+        "text": {
+          "text": [ "मला ते समजले नाही. तुम्ही ते पुन्हा एकदा म्हणाल का?", "तुम्ही काय म्हंटले ते मी ऐकले नाही. पुन्हा म्हणाल का?", "माफ करा, तुम्ही ते पुन्हा म्हणाल का?", "माफ करा, तुम्ही ते पुन्हा म्हणू शकता का?", "माफ करा, मला ते समजले नाही.", "माफ करा, ते काय होते?", "आणखी एकदा?", "ते काय होते?", "ते पुन्हा म्हणाल का?", "मला ते समजले नाही.", "मी ते ऐकले नाही." ]
+        },
+        "languageCode": "mr-in"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-au"
+      }, {
+        "text": {
+          "text": [ "હેં, મને સમજાયું નહીં. શું તમે ફરીથી કહી શકશો?", "તમે જે બોલ્યા, તે મારાથી ચૂકી જવાયું. ફરીથી કહો તો!", "માફ કરશો, પણ તે તમે ફરીથી કહી શકશો?", "માફ કરશો, પણ તે તમે ફરીથી કહી સકશો?", "શું તમે ફરીથી કહી સકશો?", "માફ કરશો, પણ તે મને સમજાયું નહીં.", "માફ કરશો, પણ તમે શું કીધું?", "ફરી એક વાર?", "એ શું હતું?", "પાછું કહી સકશો?", "હેં, મને સમજાયું નહીં.", "મારાથી ચૂકી જવાયું." ]
+        },
+        "languageCode": "gu"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-gb"
+      } ]
+    },
+    "name": "0d9f2e36-bc7d-41b9-aaef-34d241efbff6"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "मुझे समझ नहीं आया. क्या आप अपनी बात दोहरा सकते हैं?", "आपने क्या कहा, मुझे समझ नहीं आया. फिर से कहें?", "माफ़ करें, क्या आप अपनी बात दोहरा सकते हैं?", "माफ़ करें, क्या आप अपनी बात फिर से कह सकते हैं?", "क्या आप अपनी बात दोहरा सकते हैं?", "माफ़ करें, मुझे समझ नहीं आया|", "माफ़ करें, क्या कहा आपने?", "एक बार फिर से कह सकते हैं?", "क्या कहा आपने?", "एक बार फिर से कहिए?", "मुझे समझ नहीं आया|" ]
+        },
+        "languageCode": "hi"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-us"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-ca"
+      }, {
+        "text": {
+          "text": [ "मला ते समजले नाही. तुम्ही ते पुन्हा एकदा म्हणाल का?", "तुम्ही काय म्हंटले ते मी ऐकले नाही. पुन्हा म्हणाल का?", "माफ करा, तुम्ही ते पुन्हा म्हणाल का?", "माफ करा, तुम्ही ते पुन्हा म्हणू शकता का?", "माफ करा, मला ते समजले नाही.", "माफ करा, ते काय होते?", "आणखी एकदा?", "ते काय होते?", "ते पुन्हा म्हणाल का?", "मला ते समजले नाही.", "मी ते ऐकले नाही." ]
+        },
+        "languageCode": "mr"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-in"
+      }, {
+        "text": {
+          "text": [ "मला ते समजले नाही. तुम्ही ते पुन्हा एकदा म्हणाल का?", "तुम्ही काय म्हंटले ते मी ऐकले नाही. पुन्हा म्हणाल का?", "माफ करा, तुम्ही ते पुन्हा म्हणाल का?", "माफ करा, तुम्ही ते पुन्हा म्हणू शकता का?", "माफ करा, मला ते समजले नाही.", "माफ करा, ते काय होते?", "आणखी एकदा?", "ते काय होते?", "ते पुन्हा म्हणाल का?", "मला ते समजले नाही.", "मी ते ऐकले नाही." ]
+        },
+        "languageCode": "mr-in"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-au"
+      }, {
+        "text": {
+          "text": [ "હેં, મને સમજાયું નહીં. શું તમે ફરીથી કહી શકશો?", "તમે જે બોલ્યા, તે મારાથી ચૂકી જવાયું. ફરીથી કહો તો!", "માફ કરશો, પણ તે તમે ફરીથી કહી શકશો?", "માફ કરશો, પણ તે તમે ફરીથી કહી સકશો?", "શું તમે ફરીથી કહી સકશો?", "માફ કરશો, પણ તે મને સમજાયું નહીં.", "માફ કરશો, પણ તમે શું કીધું?", "ફરી એક વાર?", "એ શું હતું?", "પાછું કહી સકશો?", "હેં, મને સમજાયું નહીં.", "મારાથી ચૂકી જવાયું." ]
+        },
+        "languageCode": "gu"
+      }, {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en-gb"
+      } ]
+    },
+    "name": "a040bb76-9a84-4512-b929-d14c1fda60be"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  }
+}

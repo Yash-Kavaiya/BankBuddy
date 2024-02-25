@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Based on this five parameters $goal ,$income ,$risk ,$savings ,$spending_habits Suggest a Range of amounts the user can invest also diversify investment in crypto, stocks, gold, and FD  in percentage-wise",
+    "languageCode": "en"
+  } ]
+}

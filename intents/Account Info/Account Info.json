@@ -1,0 +1,7 @@
+{
+  "name": "f2e7adb8-ee05-4843-ace8-5bbe1b3573e8",
+  "displayName": "Account Info",
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 6
+}

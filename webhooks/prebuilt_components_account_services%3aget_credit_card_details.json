@@ -1,0 +1,23 @@
+{
+  "name": "ed73ab75-d3e1-4d71-b154-51fb0aede222",
+  "displayName": "prebuilt_components_account_services:get_credit_card_details",
+  "genericWebService": {
+    "uri": "https://us-central1-prebuilt-components-qa.cloudfunctions.net/fsi-userCardDetails-qa",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"getCardDetails\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "credit_card_count",
+      "value": "credit_card_count"
+    }, {
+      "key": "email",
+      "value": "email"
+    }, {
+      "key": "last_four_digit_of_card_number",
+      "value": "credit_card"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

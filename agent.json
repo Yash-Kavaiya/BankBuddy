@@ -1,0 +1,51 @@
+{
+  "defaultLanguageCode": "en",
+  "supportedLanguageCodes": [ "gu", "hi", "mr", "mr-in", "en-in", "en-us", "en-gb", "en-ca", "en-au" ],
+  "timeZone": "Asia/Colombo",
+  "enableLogging": true,
+  "projectNumber": 24639215672,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
+  "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
+  "enableSpellCorrection": true,
+  "advancedSettings": {
+    "enabled": true,
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      },
+      "models": [ {
+        "key": "en",
+        "value": "phone_call"
+      } ]
+    },
+    "playbackInterruptionSettings": {
+      "allowPlaybackInterruption": true
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+    "enableAnswerFeedback": true
+  },
+  "webClientSettings": {
+  
+  }
+}

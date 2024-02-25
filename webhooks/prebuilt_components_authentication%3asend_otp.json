@@ -1,0 +1,17 @@
+{
+  "name": "15d8ad51-6462-4570-bedd-367d5fa805ea",
+  "displayName": "prebuilt_components_authentication:send_otp",
+  "genericWebService": {
+    "uri": "https://us-central1-prebuilt-components-qa.cloudfunctions.net/fsi-otp-auth-qa",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"channel\": \"$flow.channel\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"sendOTP\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "$flow.generated_otp",
+      "value": "generated_otp"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

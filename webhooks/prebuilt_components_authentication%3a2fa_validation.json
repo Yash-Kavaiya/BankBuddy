@@ -1,0 +1,17 @@
+{
+  "name": "cae6a737-18e6-46c9-acfb-6750d17ab531",
+  "displayName": "prebuilt_components_authentication:2fa_validation",
+  "genericWebService": {
+    "uri": "https://us-central1-prebuilt-components-qa.cloudfunctions.net/fsi-otp-auth-qa",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"phone_number\": \"$session.params.phone_number\",\n  \"security_key\": \"$flow.security_key\",\n  \"fulfillmentInfo\": {\n    \"tag\": \"verifyKey\"\n  }\n}",
+    "parameterMapping": [ {
+      "key": "$flow.security_key_verified",
+      "value": "security_key_verified"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Customer"
+    }, {
+      "text": " care",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

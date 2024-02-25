@@ -1,0 +1,11 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Fixed Deposit",
+      "parameterId": "geo-city",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

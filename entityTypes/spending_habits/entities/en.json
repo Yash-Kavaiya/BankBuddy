@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Very disciplined",
+    "synonyms": [ "Very disciplined" ],
+    "languageCode": "en"
+  }, {
+    "value": "somewhat disciplined",
+    "synonyms": [ "somewhat disciplined" ],
+    "languageCode": "en"
+  }, {
+    "value": "I struggle to budget",
+    "synonyms": [ "I struggle to budget" ],
+    "languageCode": "en"
+  } ]
+}

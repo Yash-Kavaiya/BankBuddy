@@ -1,0 +1,56 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Can you give ",
+      "auto": true
+    }, {
+      "text": "me",
+      "auto": true
+    }, {
+      "text": " tips ",
+      "auto": true
+    }, {
+      "text": "to",
+      "auto": true
+    }, {
+      "text": " improve my financial health?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are some good investment options ",
+      "auto": true
+    }, {
+      "text": "for",
+      "auto": true
+    }, {
+      "text": " beginners?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "How much risk should I take with my investments?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Money Mentor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "MoneyMentor",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,59 @@
+{
+  "trainingPhrases": [ {
+    "id": "2c0ee22f-51e1-40d9-95ad-7bc9143a1e0a",
+    "parts": [ {
+      "text": "येथे स्वागत आहे",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "mr"
+  }, {
+    "id": "0e6d31b6-5e31-43d5-b391-4093eeb7c3f4",
+    "parts": [ {
+      "text": "सुस्वागतम",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "mr"
+  }, {
+    "id": "76dac419-2952-4777-a094-a53b3dbdf3e0",
+    "parts": [ {
+      "text": "तुमचे मनापासून स्वागत आहे",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "mr"
+  }, {
+    "id": "fe895b78-b5b1-4bad-8afc-fe116b0b617b",
+    "parts": [ {
+      "text": "ही माझ्यासाठी आनंदाची गोष्ट आहे",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "mr"
+  }, {
+    "id": "3b8d1dd0-743d-4c23-a2dc-7800a6f5c65e",
+    "parts": [ {
+      "text": "नक्कीच स्वागत आहे",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "mr"
+  }, {
+    "id": "859f0b49-6f96-49a6-a064-9214bc5fd430",
+    "parts": [ {
+      "text": "माझे सौभाग्य",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "mr"
+  }, {
+    "id": "010f351d-caed-4cb5-ac3b-2897e58aa3db",
+    "parts": [ {
+      "text": "तुमचे स्वागत आहे",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "mr"
+  } ]
+}
